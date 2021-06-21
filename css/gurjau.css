@@ -1,0 +1,26 @@
+/*Estilos globais do site */
+
+html {
+    height: 100%;
+
+}
+
+body {
+    background-color: #b9ecaa;
+    font-family: sans-serif;
+    color:#18380F;
+    margin: 0;
+}
+
+.title{
+    padding: 0 20px;
+    font-size: 1.75em;
+    text-transform: uppercase;
+}
+
+h1.title{
+    margin: 40px auto 20px;
+}
+
+main{
+    text-align: center;}

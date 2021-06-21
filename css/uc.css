@@ -1,0 +1,18 @@
+/*Estilos da página Unidade de Conservação */
+
+.content-container{
+    padding: 20px;
+}
+.content-container img {
+    width: 98%;
+    border-radius: 20px;
+}
+
+@media screen and (min-width: 992px) {
+    .content-container {
+        width: 50%;
+    }
+    .content-container{
+        display: inline-block;
+    }
+}

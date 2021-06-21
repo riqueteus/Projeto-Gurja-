@@ -1,0 +1,24 @@
+/*Estilos da página index */
+
+.cover-container figure img{
+    width: 100%;
+}
+
+.video-rvs {
+    text-align: center;
+    
+}
+
+main {
+    text-align: center;
+}
+
+@media screen and (min-width:992px) {
+    .cover-container{
+        width: 40%;
+    }
+    
+    .cover-container, .video-rvs {
+        display: inline-block;
+    }
+}

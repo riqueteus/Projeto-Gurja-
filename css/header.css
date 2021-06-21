@@ -1,0 +1,46 @@
+/*Estilos do header*/
+
+
+
+header .link-logo{
+    display: block;
+    padding: 10px 25px;
+    border-bottom: 2px solid #368021;
+}
+
+header nav ul{
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li{
+    display: inline-block;
+}
+
+header nav ul li:not(:last-child){
+    margin-right: 15px;
+}
+
+.menu li a{
+    color: #18380F;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: #57CF36;
+    text-decoration: underline;
+}
+
+
+@media screen and (min-width: 992px) {
+    header {
+        position: relative;
+    }
+
+    .menu{
+        position: absolute;
+        right: 2%;
+        top: 18%;
+    }
+}
+
