@@ -23,4 +23,13 @@ h1.title{
 }
 
 main{
-    text-align: center;}
+    text-align: center;
+}
+
+.margin-horizontal-20px{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+

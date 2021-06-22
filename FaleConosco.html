@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/gurjau.css"/>
     <link rel="stylesheet" href="css/header.css"/>
     <link rel="stylesheet" href="css/footer.css"/>
+    <link rel="stylesheet" href="css/fale-conosco.css"/>
 
     <title>Gurjaú</title>
 </head>
@@ -32,20 +33,20 @@
     <main>
         <h1>Fale Conosco!</h1>
 
-        <h2>Para entrar em contato preencha os campos abaixo e clique em enviar:</h2>
+        <h2 class="sub-title">Para entrar em contato preencha os campos abaixo e clique em enviar:</h2>
 
-        <form action="index.html">
-        <p>
+        <form action="index.html" class="contact-form margin-horizontal-20px">
+        <div>
             <label>Nome:</label> <input type="text" name="Nome" maxlength="70"/>
-        </p>
-        <p>
+        </div>
+        <div>
             <label>E-mail:</label> <input type="text" name="Email" maxlength="150" />
-        </p>
-        <p>
+        </div>
+        <div>
             <label>Comentários:</label>
             <textarea name="Comentario" id="" cols="60" rows="5"></textarea>
-        </p>
-        <p>
+        </div>
+        <div>
             <label>Onde você nos conheceu?</label>
             <select name="Conheceu">
                 <option selected>Google</option>
@@ -53,15 +54,15 @@
                 <option>Amigos</option>
                 <option>Outros</option>
             </select>
-        </p>
-        <p>
+        </div>
+        <div>
             <input type="checkbox" name="Aceite" /> 
-            <label>Aceito Receber Novidades</label>
-        </p>
-        <p>
+            <span>Aceito Receber Novidades</span>
+        </div>
+        <div>
             <input type="submit" value="Enviar" name="Enviar" />
             <input type="reset" value="Limpar" name="Limpar" />
-        </p>
+        </div>
 
         </form>
     </main>
